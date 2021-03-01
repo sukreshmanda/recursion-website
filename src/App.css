@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.headpanel{
+    background-color: #0067f4;
+}
+.collapse{
+    padding-top: 30px;
+    align-items: center;
+}
+.nav-item .navbar-brand{
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.underline{
+    padding-top: 0px;
+    margin-right: 15px;
+    width: auto;
+    height: 5px;
+    background-image:linear-gradient(to right,#0067f4,#fff);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slide-title{
+    font-size: 60px;
+    line-height: 96px;
+    font-weight: 700;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-item{
+    padding-top:20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer{
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.App-link {
-  color: #61dafb;
+.link-to{
+    color: rgb(255, 255, 255);
+    text-shadow:2px, 2px,#0b0c0e;
+    text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.services-title{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+}
+.services-desc{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(230, 240, 255);
+    font-family: "Poppins", sans-serif;
 }
